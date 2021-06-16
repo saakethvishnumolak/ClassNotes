@@ -1,0 +1,53 @@
+body
+{
+    background-color: #a5e1ad;
+    margin: 0;
+}
+
+#header
+{
+    display: flex;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container
+{
+    display: flex;
+    height: 100%;
+    margin: 15px;
+}
+
+.container > div:nth-child(1)
+{
+    flex: 1;
+}
+
+.container > div:nth-child(2)
+{
+    flex: 3;
+}
+
+#instructions-list
+{
+    list-style: none;
+    font-size: 110%;
+    margin: 10px;
+    color: rgb(110, 51, 59)
+}
+
+h2
+{
+    color:white;
+}
+
+p
+{
+    color:white;
+}
+
+li
+{
+    margin: 0 0 5px 0;
+}
